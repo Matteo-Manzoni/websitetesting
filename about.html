@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+  <script src="https://kit.fontawesome.com/f4d2f86d5b.js" crossorigin="anonymous"></script>
+</head>
+
+  
+  <header>
+    <div class="header-container">
+      <h1>ThermoBella</h1>
+        <div class="social-icons">
+          <div class="left-icons">
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" style="color: white;"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook" style="color: white;"></i></a>
+          </div>
+          <div class="right-icons">
+            <a href="tel:+44 7391 585516"><i class="fas fa-phone" style="color: white;"></i></a>
+            <span class="phone-text">07391 585516</span>
+            <a href="mailto:info@example.com"><i class="far fa-envelope" style="color: white;"></i></a>
+            <span class="email-text">info@example.com</span>
+          </div>
+        </div>
+      
+    </div>
+  </header>
+
+  
+<div class="thermobella-title">
+  <h2>ThermoBella</h2>
+</div>
+
+
+<!-- Sidebar -->
+<div class="sidebar-toggle-button">
+  <div class="hamburger-icon">
+    <i class="fas fa-bars fa-2x" ></i>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<div id="sidebar" class="home-sidebar">
+  <nav class="home-nav">
+  <div class="top-links">
+    <h2 class="thermobella-title">ThermoBella</h2>
+    <button class="close-button">X</button>
+  </div>
+  <a href="/">Home</a>
+  <a href="/about">About Me</a>
+  <a href="/buy">Buy</a>
+  <a href="/join-us">Join Us</a>
+  <a href="/demos">Demos</a>
+  <a href="/what-is-a-thermomix">What is a Thermomix</a>
+</nav>
+  <div>
+    <svg viewBox="0 0 950.8571428571428 1024" class="home-icon1"></svg>
+  </div>
+</div>
+<div class="overlay"></div>
+
+
+  
+<!-- Content -->
+<div class="content">
+
+  
+  <!-- Contents Links -->
+  <div class="contents">
+    <a href="/">Home</a>
+    <a href="/about">About Me</a>
+    <a href="/buy">Buy</a>
+    <a href="/join-us">Join Us</a>
+    <a href="/demos">Demos</a>
+    <a href="/what-is-a-thermomix">What is a Thermomix</a>
+
+
+    <!-- Add more content links as needed -->
+  </div>
+
+</div>
+  
+<head>
+  <title>About</title>
+</head>
+<body>
+  <div class="home-hero-abo">
+    <div class="home-container-abo">
+      <h1 class="home-text191">About Me</h1>
+      <div class="home-text192">
+      <span>
+        Fill in the form to know your next steps for buying a thermomix you dont need a demo. 
+      </span>
+      <span >
+        join as an advisor and get a discount on your thermomix or earn it  
+      </span>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <div class="row2">
+    <div class="col-md-6">
+      <div class="home-hero2">
+        <div class="home-container2">
+          <h4 class="home-text06">Magnificent things are very simple</h4>
+          <p class="home-text07">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis.
+          </p>
+          <p class="home-text07">
+            Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/MUM.jpeg') }}" class="home-image50" alt="Image">
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/Barbie.jpeg') }}" class="home-image50" alt="Image" style="width:90%;">
+    </div>
+    <div class="col-md-6">
+      <div class="home-hero50">
+        <div class="home-container50">
+          <h4 class="home-text50">Magnificent things are very simple</h4>
+          <p class="home-text51">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat
+            turpis.
+          </p>
+          <p class="home-text51">
+            Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container" background=>
+  <div class="row2">
+    <!-- Three images in a row -->
+    <div class="col-md-4 col-sm-12">
+      <div class="image-container">
+        <img src="{{ url_for('static', filename='images/MUM2.jpeg') }}" class="home-image-three" alt="Image">
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="image-container">
+        <img src="{{ url_for('static', filename='images/MUM.jpeg') }}" class="home-image-three" alt="Image">
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="image-container">
+        <img src="{{ url_for('static', filename='images/MUM3.jpeg') }}" class="home-image-three" alt="Image">
+      </div>
+    </div>
+
+    <!-- Text block underneath -->
+    <div class="col-md-12">
+      <h2 class="home-text6">Lorem ipsum</h2>
+      <span class="home-text7">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem,
+        malesuada in metus vitae, scelerisque accumsan ipsum.
+      </span>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<div class="home-hero-abo2">
+  <div class="home-container-abo">
+    <h1 class="home-text191">About Me</h1>
+    <div class="home-text192">
+      <span>
+        Fill in the form to know your next steps for buying a thermomix you dont need a demo. 
+      </span>
+    </div>
+    <button class="home-button1 button "onclick="navigateToBuy() ">Buy one right now</button>
+  </div>
+
+
+  
+
+  
+  <script src="{{ url_for('static', filename='scripts/sidebar.js') }}"></script>
+
+</body>
+</html>
